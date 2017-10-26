@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="img/logosvg.svg">
+	<title>Portfolio Laura Kerkhofs</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.1/css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styling.css">
+
+	<!-- Hotjar Tracking Code for https://laurakerkhofs.github.io/portfolio/index.html -->
+	<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:636484,hjsv:5};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+</head>
+<body>
+	<div class="swiper-container swiper-container-h">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div id="particles-js"></div>
+				<img class="homesvg" src="img/homesvg.svg">
+			</div>
+			<div class="swiper-slide" data-hash="about">
+				<div class="kader">
+					<h1>About me</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum erat at turpis molestie bibendum. Proin sodales ut erat a iaculis. In hac habitasse platea dictumst. Morbi aliquet, augue vel mollis hendrerit, ligula lectus iaculis ante, ultrices dictum lectus tortor nec tortor. Cras ut molestie augue. Integer eu pellentesque sem, a tempor risus. Praesent pulvinar mattis diam ultricies malesuada. Nunc lobortis vitae elit ut vehicula. Vestibulum aliquet, sem in viverra scelerisque, urna nisi suscipit leo, a tincidunt leo dui in metus. Aliquam pretium, lacus eget pharetra cursus, massa nisi lacinia nisi, id tempor purus elit sit amet nulla. Quisque vel turpis eu mi tempus semper in vitae risus. Pellentesque eget pretium justo. Morbi commodo blandit nisi, non commodo quam ornare sit amet. Donec non libero vitae mauris cursus efficitur.</p>
+				</div>
+			</div>
+			<div class="swiper-slide" data-hash="work">
+				<div class="swiper-container swiper-container-v">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">Vertical Slide 1</div>
+						<div class="swiper-slide">Vertical Slide 2</div>
+						<div class="swiper-slide">Vertical Slide 3</div>
+						<div class="swiper-slide">Vertical Slide 4</div>
+						<div class="swiper-slide">Vertical Slide 5</div>
+						<div class="swiper-slide">Vertical Slide 6</div>
+						<div class="swiper-slide">Vertical Slide 7</div>
+						<div class="swiper-slide">Vertical Slide 8</div>
+					</div>
+					<div class="swiper-pagination swiper-pagination-v"></div>
+				</div>
+			</div>
+			<div class="swiper-slide" data-hash="contact">
+				<div class="kader">
+					<h1>Contact me</h1>
+					<p class="pcontact">Feel free to contact me
+					Kort leuk stukje tekst waarvoor ze mij allemaal kunnen sturen: gewoon hallo zeggen, wat je van mijn website vind, samenwerken aan een project, vertel mij alles</p>
+					<form method="POST" action="http://formspree.io/kerkhofslaura@hotmail.com">
+						<!-- ALS URL VASTSTAAT NOG EENS MAILFORM INSTELLEN MET https://formspree.io/ 
+							OF ZELF DATABASE AANMAKEN EN MISSCHIEN ZELF EXTRA VOORDELEN????? https://github.com/formspree/formspree
+						https://www.google.com/recaptcha/intro/#-->
+						<input name="name" type="text" class="feedback-input" placeholder="Name"/>
+						<input name="_replyto" type="email" class="feedback-input" placeholder="Email"/>
+						<textarea name="message" class="feedback-input" placeholder="Message"></textarea>
+							<!-- EXTRA OPTIES:
+							_reply = kunnen beantwoorden op de opgegeven mailadressen
+							_format = receive plain text of mails for form submissions
+							_next = webadres instellen waar terug naartoe
+							_gotcha = iets met recaptcha ... 
+							_subject = bij mail beantwoorden, staat onderwerp op "Antwoord Portfolio Laura K." -->
+							<input type="hidden" name="_format" value="plain" />
+							<input type="hidden" name="_next" value="//localhost/portweb/index.html#contact"/>
+							<input type="text" name="_gotcha" style="display:none"/>
+							<input type="hidden" name="_subject" value="Antwoord Portfolio Laura K."/> 
+						<button type="submit">SEND</button>
+					</form>
+
+					<ul>
+						<li><a href="https://www.facebook.com/laura.kerkhofs.7" target="_blank">
+							<img class="icon" src="img/icon-fb.svg"></a></li>
+						<li><a href="https://www.linkedin.com/in/laura-kerkhofs-261529115/" target="_blank">
+							<img class="icon" src="img/icon-li.svg"></a></li>
+						<li><a href="https://github.com/LauraKerkhofs" target="_blank">
+							<img class="icon" src="img/icon-gh.svg"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-button-next swiper-button-white"></div>
+		<div class="swiper-button-prev swiper-button-white"></div>
+	</div>
+</body>
+
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.1/js/swiper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src='js/js-code.js'></script>
+</html>
+
+
+
+
+<!-- OPEN LINKS
+
+https://laurakerkhofs.github.io/Portfolio/index.html
+https://laurakerkhofs.github.io/JaarverslagTelenet/index.html
+https://github.com/
+https://insights.hotjar.com/site/list
+https://codepen.io/LauraKerkhofs/pens/public/
+
+http://www.digitalartsonline.co.uk/tutorials/photoshop/low-poly-art-in-photoshop/#1
+
+https://www.titanrun.be/media
+https://codepen.io/dashboard/
+http://localhost/portweb/index.html
+https://coolors.co/f6e6b9-242424-817856-b1b695-53917e
+
+https://www.linkedin.com/in/laura-kerkhofs-261529115/
+
+ -->
+
+
+<!-- 
+WONEN
+optie1: €550 http://www.immoweb.be/nl/zoekertje/appartement/te-huur/lier/2500/id6141040
+optie2: €525 http://www.immoweb.be/nl/zoekertje/appartement/te-huur/herentals/2200/id6765822
+optie3: €585 http://www.immoweb.be/nl/zoekertje/appartement/te-huur/herentals/2200/id7216338
+
+optie4: €585 2 slaapkamers http://www.immoweb.be/nl/zoekertje/appartement/te-huur/herentals/2200/id7144783
+
+optie5: €525 https://www.zimmo.be/nl/herentals-2200/te-huur/appartement/GCU05/?search=87a246e7e809372ccd98b93a09bead47
+optie6: €550 https://www.zimmo.be/nl/herentals-2200/te-huur/appartement/GT93V/?search=87a246e7e809372ccd98b93a09bead47
+optie7: €600 2 slaapkamers https://www.zimmo.be/nl/herentals-2200/te-huur/appartement/GPQVR/?search=87a246e7e809372ccd98b93a09bead47
+
+Cohousing?
+https://www.2dehands.be/immo/huurwoningen-belgi%C3%AB/provincie-antwerpen/appartement-te-huur-boechout-375893610.html
+
+-->

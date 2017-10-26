@@ -1,0 +1,241 @@
+/*Font alles */ @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+/*Font h1*/ @import url('https://fonts.googleapis.com/css?family=Norican|Pacifico');
+
+/*///////////////////////////////////////*/
+/*////////////// ALGEMEEN ///////////////*/
+/*///////////////////////////////////////*/
+html, body {
+	position: relative;
+	height: 100%;
+}
+body {
+	background: #eee;
+	font-family: 'Roboto', sans-serif;
+	line-height: 21px;
+	font-size: 18px;
+	color: #B1B695;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.9);
+}
+.swiper-slide {
+	text-align: center;
+	background-color: #242424;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.swiper-container-v {
+	background: #eee;
+	background-color: rgba(255,255,255,0.3);
+}
+/*/// STYLING BULLETS VERTCIAL ///*/
+.swiper-pagination-bullet {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 12px;
+	color:#000;
+	opacity: 1;
+	background: rgba(246, 230, 185, 0.2);
+}
+.swiper-pagination-bullet-active {background-color: rgba(246, 230, 185, 1);}
+.swiper-pagination-bullets-dynamic {padding-right: 10%;}
+/*/// STYLING NAVIGATION ARROWS ///*/
+.swiper-button-next {right: 4%;}
+.swiper-button-prev {left: 4%;}
+.swiper-button-disabled {display:none;}
+
+
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////*/
+/*///////////// HOME PAGINA /////////////*/
+/*///////////////////////////////////////*/
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.homesvg {
+	height: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////*/
+/*/////////// ABOUT ME PAGINA ///////////*/
+/*///////////////////////////////////////*/
+.kader {
+	width: 70%;
+	/*background-color: white;*/
+}
+
+h1 {
+	color: rgb(83, 145, 126);
+	font-size: 36pt;
+	margin-bottom: 70px;
+	font-family: 'Pacifico', cursive;
+	/*font-family: 'Norican', cursive;*/
+}
+
+p {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////*/
+/*////////// VERTICAAL SLIDE 1 //////////*/
+/*///////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////*/
+/*////////// CONTACT ME PAGINA //////////*/
+/*///////////////////////////////////////*/
+.pcontact {
+	font-size: 15px;
+	line-height: auto;
+}
+
+form {
+	max-width:500px;
+	margin:50px auto;
+	font-family: 'Roboto', sans-serif;
+	line-height: 21px;
+	font-size: 8px;
+	color: #B1B695;
+}
+
+.feedback-input {
+	font-family: 'Roboto', sans-serif;
+	line-height: 21px;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	background-color: transparent;
+	border:2px solid #817856;
+	transition: all 0.3s;
+	padding: 10px;
+	margin-bottom: 15px;
+	width:100%;
+	box-sizing: border-box;
+	outline:0;
+}
+.feedback-input:focus {border:2px solid #aa9c66;}
+
+textarea {
+	height: 120px;
+	line-height: 150%;
+	resize:vertical;
+}
+
+[type="submit"] {
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+	font-size:24px;
+	line-height: 23px;
+	width: 100%;
+	background:#817856;
+	border-radius:5px;
+	border:0;
+	cursor:pointer;
+	color:#242424;
+	padding-top:10px;
+	padding-bottom:10px;
+	transition: all 0.3s;
+	margin-top:-4px;
+}
+[type="submit"]:hover {background:#aa9c66;}
+
+ul {}
+ul li {display: inline-block;}
+ul li a {}
+ul li a img {}
+.icon {
+	width: 50px;
+	margin: 10px;
+	opacity: 0.7;
+}
+.icon:hover {opacity: 1;}
+
+
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////*/
+/*//////////// MEDIA QUERYS /////////////*/
+/*///////////////////////////////////////*/
+@media all and (max-width: 700px) and (min-width: 500px) {
+	.swiper-slide  {
+		background-color: purple;
+	}
+	.swiper-pagination-bullets-dynamic {
+		padding-right: 100px;
+	}
+}
+
+
+@media screen and (max-width: 500px) {
+	.swiper-slide  {
+		background-color: yellow;
+	}
+	.swiper-pagination-bullets-dynamic {
+		padding-right: 55px;
+	}
+}
+
+
+
+

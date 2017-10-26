@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 283.5 283.5" enable-background="new 0 0 283.5 283.5" xml:space="preserve">
+
+	<animateTransform
+		attributeName="transform"
+		type="scale"
+		from="0"
+		to="1"
+		dur="1.5s"
+	/>
+
+	<!-- WITTE CIRKEL -->
+	<circle fill="#FFFFFF" cx="132.7" cy="151.7" r="99.2"></circle>
+
+	<!-- OOR INHOUD LINKS -->
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="97.7969" y1="79.2365" x2="121.5335" y2="65.5322">
+		<stop  offset="0" style="stop-color:#F6E6B9"/>
+		<stop  offset="0.4949" style="stop-color:#F4E4B8"/>
+		<stop  offset="0.6731" style="stop-color:#EEDDB3"/>
+		<stop  offset="0.8002" style="stop-color:#E2D2AB"/>
+		<stop  offset="0.9022" style="stop-color:#D2C1A0"/>
+		<stop  offset="0.9893" style="stop-color:#BDAB92"/>
+		<stop  offset="1" style="stop-color:#BAA890"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" stroke="#817856" stroke-width="1" d="M92.6,33.5c2.6,31.8,17,59.3,29,86.9v-1.5c0-18.5-5.4-61.9-17.4-83.4
+		C100.6,29.2,92.2,19.1,92.6,33.5z">
+		<animateTransform id="dontmatter"
+			attributeName="transform"
+			attributeType="xml"
+			type="translate"
+			begin="2s"
+			dur="10s"
+			values="0,0; 4,5; -6,8; -4,-2; 3,-1; 0,0"
+			repeatCount="indefinite"
+		/>
+	</path>
+
+	<!-- OOR INHOUD RECHTS -->
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="185.8673" y1="77.5385" x2="158.2362" y2="67.4816">
+		<stop  offset="0" style="stop-color:#F6E6B9"/>
+		<stop  offset="0.3567" style="stop-color:#F4E3B7"/>
+		<stop  offset="0.5712" style="stop-color:#EBDBB2"/>
+		<stop  offset="0.748" style="stop-color:#DECDA8"/>
+		<stop  offset="0.9035" style="stop-color:#CAB99B"/>
+		<stop  offset="1" style="stop-color:#BAA890"/>
+	</linearGradient>
+	<path fill="url(#SVGID_2_)" stroke="#817856" stroke-width="1" d="M191,40.8c-2-12.3-5.6-26.9-17.6-9.1c-7.8,11-11.8,27.4-15.1,42.8c-3.6,18-6.6,40.3-6.6,43.9
+		C179.4,100,194.4,70.2,191,40.8z">
+		<animateTransform id="dontmatter"
+			attributeName="transform"
+			attributeType="xml"
+			type="translate"
+			begin="2s"
+			dur="10s"
+			values="0,0; 4,5; -6,8; -4,-2; 3,-1; 0,0"
+			repeatCount="indefinite"
+		/>
+	</path>
+
+	<!-- BRUIN LETTERS / OREN -->
+	<path fill="#817856" d="M247.9,201.5c-3-10.4-11.6-19.9-23.8-16.5c-7.6,2.6-11.9,9.9-13.5,17.9c0.4,1.4,1.9,1.6,3.4,0
+		c1.5-7.5,5.6-13,11.5-14.9c9.6-2.4,16.9,6.1,19.3,14.5c3.8,13.1-0.2,28.4-10.5,36.7c-28.8,22.6-51.4-9-96.2-25.6
+		c10-41.7,10.6-63.5,12.6-88.2c-1.2-2,51.8-28.8,44.4-87.7c-2-13.1-7-25.3-23-23.3c-14.9,1.6-26.4,20.1-30.8,30.8
+		c-3,7.3-5.6,17.1-7.8,27.7c-3.2-11.7-7.4-23.2-12.6-34.6c-2.4-4.9-6.1-11-10.8-15.1c-5.8-5-15.8-6.8-19.4,2.3
+		c-2.6,5.9-1.4,14.1-0.1,21.4c6.5,36.4,32.1,79.1,32.1,91.7v14.4c-0.5,4-1,8.5-1.7,13.2c-3.2-10.8-10.2-26.5-16-34.2
+		c-3.4-4.4-7.6-8.5-13.5-10.4c-11.4-3.4-23.5,4.4-23.5,19c0,19.1,12.8,35,27.6,45.7c-5.6,25.4-10,41.3-13.6,51.8
+		c-3,8.3-6.6,18.9-14.5,24.1c-9.4,6.4-18.5-2-24.1-14.3c-5-10.6-7.5-24.1-5.9-33.5c2.4-12.4,17.1-15.5,24.1-4.1
+		c3.3,5.5,3,14.4,0.4,20.3c0.4,1.1,1.2,1.4,2.8,0.5c3-6,2.9-15.9-0.8-21.9c-7.4-12.6-26.4-11.4-29.4,4.3c-2,10,0.9,24.6,5.9,35.7
+		c2.9,6.4,6.8,12.1,11.4,16c3.9,3.1,8.8,4.5,14.1,4.4c32.1-0.5,38.8-52.8,48.9-86.1c-16-4-24.6-20-27.3-35.5
+		c-1-6.8-0.8-30.5,12.4-16.9c3.4,3.5,6.4,9.1,8.8,14c2.4,5.4,4.5,10.5,6.9,16.6c1.9,5.2,3.5,10.3,3.7,15.9
+		c-1.6,10.8-3.4,21.8-5.2,30.5c-1.5,7.7,2.4,10.4,8.5,13.3c1.1,0.8,2.3,1.4,3.4,1.6c2.1,1,4.3,2,6.6,3.3
+		c37.9,19.4,72.6,46.3,104,15.9C247.4,231.9,251.9,217.2,247.9,201.5z M158.2,74.4c3.4-15.4,7.4-31.8,15.1-42.8
+		c12-17.8,15.6-3.1,17.6,9.1c3.4,29.4-11.6,59.2-39.4,77.6C151.6,114.7,154.6,92.4,158.2,74.4z M121.6,120.4
+		c-12-27.6-26.4-55.2-29-86.9c-0.4-14.4,8-4.3,11.6,2c12,21.5,17.4,64.9,17.4,83.4V120.4z">
+		<animateTransform id="dontmatter"
+			attributeName="transform"
+			attributeType="xml"
+			type="translate"
+			begin="2s"
+			dur="10s"
+			values="0,0; 4,5; -6,8; -4,-2; 3,-1; 0,0"
+			repeatCount="indefinite"
+		/>
+	</path>
+</svg>
