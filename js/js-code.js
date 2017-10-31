@@ -1,4 +1,6 @@
-/* SWIPER PAGINA SLIDEN */
+/*///////////////////////////////////////*/
+/*//////// SWIPER PAGINA SLIDEN /////////*/
+/*///////////////////////////////////////*/
 var swiperH = new Swiper('.swiper-container-h', {
 	spaceBetween: 20,
 	//freeMode: true,
@@ -15,10 +17,10 @@ var swiperH = new Swiper('.swiper-container-h', {
 		prevEl: '.swiper-button-prev',
 	},
 });
-var swiperV = new Swiper('.swiper-container-v', {
+/*var swiperV = new Swiper('.swiper-container-v', {
 	direction: 'vertical',
 	spaceBetween: 5,
-	//freeMode: true,
+	freeMode: true,
 	grabCursor: true,
 	mousewheel: true,
 	keyboard: {
@@ -30,12 +32,15 @@ var swiperV = new Swiper('.swiper-container-v', {
 		clickable: true,
 	},
 });
+*/
 
 
 
 
 
-/* PARTICLES HOME PAGINA VLIEGENDE DEELTJES */
+/*///////////////////////////////////////*/
+/*//////// PARTICLES HOME PAGINA ////////*/
+/*///////////////////////////////////////*/
 particlesJS("particles-js", {
 	"particles": {
 		"number": {
@@ -111,5 +116,46 @@ particlesJS("particles-js", {
 		}
 	},
 });
+
+
+
+
+
+/*///////////////////////////////////////*/
+/*/////// ISOTOPE PROJECTS PAGINA ///////*/
+/*///////////////////////////////////////*/
+var $grid = $('.grid').isotope({
+	itemSelector: '.afbeeldingen',
+	stamp: '.stamp',
+	stagger: 50,
+	percentPosition: true,
+	masonry: {
+		columnWidth: '.grid-sizer'
+	}
+});
+// layout Isotope after each image loads
+$grid.imagesLoaded().progress( function() {
+	$grid.isotope('layout');
+});
+
+// bind filter button click
+$filters = $('#filters').on( 'click', 'button', function() {
+  var $this = $( this );
+  var filterValue;
+  if ( $this.is('.is-checked') ) {
+    // uncheck
+    filterValue = '*';
+  } else {
+    filterValue = $this.attr('data-filter');
+    $filters.find('.is-checked').removeClass('is-checked');
+  }
+  $this.toggleClass('is-checked');
+
+  // use filterFn if matches value
+  $grid.isotope({ filter: filterValue });
+});
+
+
+
 
 

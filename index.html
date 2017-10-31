@@ -37,17 +37,67 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum erat at turpis molestie bibendum. Proin sodales ut erat a iaculis. In hac habitasse platea dictumst. Morbi aliquet, augue vel mollis hendrerit, ligula lectus iaculis ante, ultrices dictum lectus tortor nec tortor. Cras ut molestie augue. Integer eu pellentesque sem, a tempor risus. Praesent pulvinar mattis diam ultricies malesuada. Nunc lobortis vitae elit ut vehicula. Vestibulum aliquet, sem in viverra scelerisque, urna nisi suscipit leo, a tincidunt leo dui in metus. Aliquam pretium, lacus eget pharetra cursus, massa nisi lacinia nisi, id tempor purus elit sit amet nulla. Quisque vel turpis eu mi tempus semper in vitae risus. Pellentesque eget pretium justo. Morbi commodo blandit nisi, non commodo quam ornare sit amet. Donec non libero vitae mauris cursus efficitur.</p>
 				</div>
 			</div>
-			<div class="swiper-slide" data-hash="work">
+			<div class="swiper-slide" data-hash="projects">
 				<div class="swiper-container swiper-container-v">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide">Vertical Slide 1</div>
-						<div class="swiper-slide">Vertical Slide 2</div>
-						<div class="swiper-slide">Vertical Slide 3</div>
-						<div class="swiper-slide">Vertical Slide 4</div>
-						<div class="swiper-slide">Vertical Slide 5</div>
-						<div class="swiper-slide">Vertical Slide 6</div>
-						<div class="swiper-slide">Vertical Slide 7</div>
-						<div class="swiper-slide">Vertical Slide 8</div>
+						<div class="swiper-slide">
+							<div class='grid'>
+								<div class="stamp"><h2>Projects</h2></div>
+								<div class="filters">
+									<div class="ui-group">
+										<div id="filters" class="button-group js-radio-button-group" data-filter-group="3d">
+											<button class="button" data-filter=".3d">3D</button>
+											<button class="button" data-filter=".graphic">Graphic</button>
+											<button class="button" data-filter=".video">Video animatie</button>
+											<button class="button" data-filter=".code">Code</button>
+										</div>
+									</div>
+								</div>
+								<div class="grid-sizer"></div>
+								<div class='afbeeldingen 3d'>
+									<a href='#projects'>
+										<div class='foto'>
+											<img src='img/testbeeld.jpg' alt='testbeeld'>
+										</div>
+									</a>
+								</div>
+								<div class='afbeeldingen graphic'>
+									<a href='#projects'>
+										<div class='foto'>
+											<img src='img/testbeeld.jpg' alt='testbeeld'>
+										</div>
+									</a>
+								</div>
+								<div class='afbeeldingen video'>
+									<a href='#projects'>
+										<div class='foto'>
+											<img src='img/testbeeld.jpg' alt='testbeeld'>
+										</div>
+									</a>
+								</div>
+								<div class='afbeeldingen code'>
+									<a href='#projects'>
+										<div class='foto'>
+											<img src='img/testbeeld.jpg' alt='testbeeld'>
+										</div>
+									</a>
+								</div>
+								<div class='afbeeldingen 3d video'>
+									<a href='#projects'>
+										<div class='foto'>
+											<img src='img/testbeeld.jpg' alt='testbeeld'>
+										</div>
+									</a>
+								</div>
+								<div class='afbeeldingen graphic code'>
+									<a href='#projects'>
+										<div class='foto'>
+											<img src='img/testbeeld.jpg' alt='testbeeld'>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="swiper-pagination swiper-pagination-v"></div>
 				</div>
@@ -59,18 +109,11 @@
 						Tell me <span>what you think</span> about my website.<br>
 						We can <span>work together</span> on a project.</p>
 					<form method="POST" action="http://formspree.io/kerkhofslaura@hotmail.com">
-						<!-- ALS URL VASTSTAAT NOG EENS MAILFORM INSTELLEN MET https://formspree.io/ 
-							OF ZELF DATABASE AANMAKEN EN MISSCHIEN ZELF EXTRA VOORDELEN????? https://github.com/formspree/formspree
-						https://www.google.com/recaptcha/intro/#-->
+						<!-- KAN ZELF DATABASE AANMAKEN EN EXTRA VOORDELEN? https://github.com/formspree/formspree https://www.google.com/recaptcha/intro/# -->
 						<input name="name" type="text" class="feedback-input" placeholder="Name"/>
 						<input name="_replyto" type="email" class="feedback-input" placeholder="Email"/>
 						<textarea name="message" class="feedback-input" placeholder="Message"></textarea>
-							<!-- EXTRA OPTIES:
-							_reply = kunnen beantwoorden op de opgegeven mailadressen
-							_format = receive plain text of mails for form submissions
-							_next = webadres instellen waar terug naartoe
-							_gotcha = iets met recaptcha ... 
-							_subject = bij mail beantwoorden, staat onderwerp op "Antwoord Portfolio Laura K." -->
+							<!-- EXTRA OPTIES: _reply = kunnen beantwoorden op de opgegeven mailadressen _format = receive plain text of mails for form submissions _next = webadres instellen waar terug naartoe _gotcha = iets met recaptcha ... _subject = bij mail beantwoorden, staat onderwerp op "Antwoord Portfolio Laura K." -->
 							<input type="hidden" name="_format" value="plain" />
 							<input type="hidden" name="_next" value="//laurakerkhofs.github.io/Portfolio/index.html#contact"/>
 							<input type="text" name="_gotcha" style="display:none"/>
@@ -79,9 +122,9 @@
 					</form>
 
 					<ul>
-						<li><a href="//facebook.com" target="_blank">
+						<li><a href="//www.facebook.com/laura.kerkhofs.7" target="_blank">
 							<img class="icon" src="img/icon-fb.svg"></a></li>
-						<li><a href="//linkedin.com" target="_blank">
+						<li><a href="//www.linkedin.com/in/laura-kerkhofs-261529115/" target="_blank">
 							<img class="icon" src="img/icon-li.svg"></a></li>
 						<li><a href="//github.com/LauraKerkhofs" target="_blank">
 							<img class="icon" src="img/icon-gh.svg"></a></li>
@@ -94,8 +137,10 @@
 	</div>
 </body>
 
-<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.1/js/swiper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src='js/js-code.js'></script>
+<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.min.js"></script>
+<script src="js/js-code.js"></script>
 </html>
