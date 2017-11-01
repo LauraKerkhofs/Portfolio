@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024px" height="768px" viewBox="0 0 1024 768">
+<defs>
+<style type="text/css">
+	@import url(http://fonts.googleapis.com/css?family=Pacifico:normal);
+
+	svg {cursor: pointer;}
+	text {opacity: 0.5;}
+	text:hover {opacity:1;}
+</style>
+</defs>
+<clipPath id="cp4">
+<path d="M 0,0 L 1024,0 L1024,768 L 0,768 z M 0,0 L 1280,0 L 1280,960 L 0,960 z" fill-rule="evenodd">
+</path>
+</clipPath>
+<g clip-path="url(#cp4)">
+</g>
+<rect x="0" y="0" width="1280" height="960" opacity="0" fill="none" stroke="none">
+</rect>
+<text x="-157.23977661132812" y="13.561944479999994" style="font: normal 135.6194448px Pacifico" text-anchor="start" dy="53.60452363636364" opacity="1" fill="rgb(100, 178, 154)" stroke="none" transform="translate(512, 382) rotate(0.38837230450713367)">ipsum</text>
+<text x="-224.804443359375" y="9.04129632" style="font: normal 90.41296320000001px Pacifico" text-anchor="start" dy="35.736349090909094" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(536, 296) rotate(-4.871697172998011)">Suspendisse</text>
+<text x="-171.32693481445312" y="9.04129632" style="font: normal 90.41296320000001px Pacifico" text-anchor="start" dy="35.736349090909094" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(344, 488) rotate(62.185750945355316)">bibendum</text>
+<text x="-146.05734252929688" y="9.04129632" style="font: normal 90.41296320000001px Pacifico" text-anchor="start" dy="35.736349090909094" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(570, 568) rotate(47.39314620148007)">faucibus</text>
+<text x="-159.93527221679688" y="9.04129632" style="font: normal 90.41296320000001px Pacifico" text-anchor="start" dy="35.736349090909094" opacity="1" fill="rgb(129, 120, 86)" stroke="none" transform="translate(440, 232)">Vivamus</text>
+<text x="-106.05091857910156" y="9.04129632" style="font: normal 90.41296320000001px Pacifico" text-anchor="start" dy="35.736349090909094" opacity="1" fill="rgb(129, 120, 86)" stroke="none" transform="translate(642, 496)">libero</text>
+<text x="-102.02767181396484" y="9.04129632" style="font: normal 90.41296320000001px Pacifico" text-anchor="start" dy="35.736349090909094" opacity="1" fill="rgb(100, 178, 154)" stroke="none" transform="translate(670, 340)">neque</text>
+<text x="-89.00863647460938" y="9.04129632" style="font: normal 90.41296320000001px Pacifico" text-anchor="start" dy="35.736349090909094" opacity="1" fill="rgb(100, 178, 154)" stroke="none" transform="translate(472, 188)">vitae</text>
+<text x="-107.85911560058594" y="9.04129632" style="font: normal 90.41296320000001px Pacifico" text-anchor="start" dy="35.736349090909094" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(732, 452)">metus</text>
+<text x="-77.30054473876953" y="9.04129632" style="font: normal 90.41296320000001px Pacifico" text-anchor="start" dy="35.736349090909094" opacity="1" fill="rgb(100, 178, 154)" stroke="none" transform="translate(502, 634) rotate(12.578420684221271)">felis</text>
+<text x="-104.9543685913086" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(100, 178, 154)" stroke="none" transform="translate(594, 170) rotate(8.444271821861578)">consectetur</text>
+<text x="-89.13436126708984" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(129, 120, 86)" stroke="none" transform="translate(684, 224)">adipiscing</text>
+<text x="-74.19577026367188" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(100, 178, 154)" stroke="none" transform="translate(468, 132)">ultricies</text>
+<text x="-97.90318298339844" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(100, 178, 154)" stroke="none" transform="translate(328, 168)">elementum</text>
+<text x="-85.7217788696289" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(702, 562) rotate(-29.37916085661199)">accumsan</text>
+<text x="-69.38197326660156" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(129, 120, 86)" stroke="none" transform="translate(764, 392)">suscipit</text>
+<text x="-58.759971618652344" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(238, 296) rotate(-61.8172638578309)">lacinia</text>
+<text x="-68.50057983398438" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(272, 502) rotate(73.00097154292301)">dapibus</text>
+<text x="-67.03158569335938" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(614, 132)">sodales</text>
+<text x="-69.5401840209961" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(129, 120, 86)" stroke="none" transform="translate(464, 88)">posuere</text>
+<text x="-84.20758056640625" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(129, 120, 86)" stroke="none" transform="translate(352, 612) rotate(62.838089561536336)">commodo</text>
+<text x="-61.110374450683594" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(129, 120, 86)" stroke="none" transform="translate(604, 88)">finibus</text>
+<text x="-69.17858123779297" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(129, 120, 86)" stroke="none" transform="translate(722, 596) rotate(-20.097081967758562)">gravida</text>
+<text x="-74.8963851928711" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(510, 700)">Quisque</text>
+<text x="-73.65338134765625" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(129, 120, 86)" stroke="none" transform="translate(216, 466) rotate(80.47710959072026)">Mauris</text>
+<text x="-61.49458312988281" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(100, 178, 154)" stroke="none" transform="translate(732, 160)">dictum</text>
+<text x="-51.844390869140625" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(129, 120, 86)" stroke="none" transform="translate(780, 296) rotate(-77.29307250946358)">tellus</text>
+<text x="-52.906585693359375" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(100, 178, 154)" stroke="none" transform="translate(448, 560)">lectus</text>
+<text x="-56.20618438720703" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(334, 128)">mollis</text>
+<text x="-60.02558135986328" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(129, 120, 86)" stroke="none" transform="translate(374, 696)">congue</text>
+<text x="-50.57878875732422" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(232, 220)">dolor</text>
+<text x="-51.4827880859375" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(424, 60) rotate(-4.422950138753992)">porta</text>
+<text x="-62.91838073730469" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(542, 44)">Lorem</text>
+<text x="-51.369789123535156" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(254, 576)">augue</text>
+<text x="-58.3079833984375" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(129, 120, 86)" stroke="none" transform="translate(472, 740)">Donec</text>
+<text x="-53.2681884765625" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(129, 120, 86)" stroke="none" transform="translate(644, 704)">lorem</text>
+<text x="-45.65198516845703" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(524, 360)">amet</text>
+<text x="-31.142784118652344" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(129, 120, 86)" stroke="none" transform="translate(286, 308)">elit</text>
+<text x="-37.809783935546875" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(828, 340)">eget</text>
+<text x="-38.532981872558594" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(100, 178, 154)" stroke="none" transform="translate(836, 424)">nibh</text>
+<text x="-29.221786499023438" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(129, 120, 86)" stroke="none" transform="translate(626, 550) rotate(18.00851537822686)">nec</text>
+<text x="-24.54358673095703" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(100, 178, 154)" stroke="none" transform="translate(710, 432)">sit</text>
+<text x="-27.345993041992188" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(129, 120, 86)" stroke="none" transform="translate(214, 264)">vel</text>
+<text x="-27.86579132080078" y="4.52064816" style="font: normal 45.206481600000004px Pacifico" text-anchor="start" dy="17.868174545454547" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(348, 446) rotate(63.0564089026135)">est</text>
+</svg>
