@@ -81,7 +81,7 @@ body {
   height: 100%;
 }
 .homesvg {
-	height: 80%;
+	width: 45%;
 }
 
 
@@ -113,7 +113,7 @@ p {
 }
 
 .wordcloud {
-	width: 100%;
+	width: 70%;
 }
 
 
@@ -164,16 +164,8 @@ h2 {
 	cursor: pointer;
 }
 
-.button:hover {
-	color: #242424;
-	background:#aa9c66;
-}
-
-.button:active,
-.button.is-checked {
-	color: #817856;
-	background-color: white;
-}
+.button:hover {color: #242424; background:#aa9c66;}
+.button:active, .button.is-checked {color: #817856; background-color: white;}
 
 /* ---- button-group ---- */
 .button-group:after {content: ''; display: block; clear: both; }
@@ -192,9 +184,29 @@ h2 {
 	padding: 1%;
 	padding-bottom: 3%;
 }
-
 .afbeeldingen {margin: auto;}
+.afbeeldingen:hover {cursor: pointer;}
 /* clear fix */.afbeeldingen:after {content: '';display: block;clear: both;}
+
+.gigante {
+  width: 46%;
+}
+.onzichtbaar {display: none;}
+.gigainfo {
+	display: visible;
+	font-size: 12pt;
+	background-color: rgba(235, 235, 235, 1);
+	border-radius: 0 0 5px 5px;
+}
+.gigatext {
+	padding: 7px;
+	padding-top: 20px;
+	color: #242424;
+}
+.gigatext a {
+	text-decoration: none;
+	color: rgb(100, 178, 154);
+}
 
 .foto {width: 100%;}
 
@@ -216,10 +228,7 @@ h2 {
 /*///////////////////////////////////////*/
 /*////////// CONTACT ME PAGINA //////////*/
 /*///////////////////////////////////////*/
-.pcontact {
-	font-size: 15px;
-	line-height: auto;
-}
+.pcontact {font-size: 15px; line-height: auto;}
 span {
 	font-weight: 700;
 	font-size: 18px;
@@ -276,15 +285,8 @@ textarea {
 }
 [type="submit"]:hover {background:#aa9c66;}
 
-ul {}
 ul li {display: inline-block;}
-ul li a {}
-ul li a img {}
-.icon {
-	width: 50px;
-	margin: 10px;
-	opacity: 0.7;
-}
+.icon {width: 50px; margin: 10px; opacity: 0.7;}
 .icon:hover {opacity: 1;}
 
 
@@ -299,23 +301,111 @@ ul li a img {}
 /*///////////////////////////////////////*/
 /*//////////// MEDIA QUERYS /////////////*/
 /*///////////////////////////////////////*/
-@media all and (max-width: 700px) and (min-width: 500px) {
+@media all and (max-width: 950px) and (min-width: 700px) {
 	.swiper-slide  {
-		background-color: purple;
+		/*background-color: green;*/
+	}
+	/* HOME PAGINA */
+	.homesvg {
+		width: 70%;
+	}
+	/* ABOUT PAGINA */
+	h1 {
+		font-size: 36pt;
+		margin-bottom: 70px;
+	}
+	.wordcloud {
+		width: 100%;
+	}
+	/* PROJECTS PAGINA */
+	h2 {
+		font-size: 36pt;
+		margin-bottom: 70px;
+	}
+	/* CONTACT PAGINA = niks*/
+}
+
+
+@media all and (max-width: 700px) and (min-width: 400px) {
+	.swiper-slide  {
+		/*background-color: purple;*/
 	}
 	.swiper-pagination-bullets-dynamic {
 		padding-right: 100px;
 	}
+	/* HOME PAGINA */
+	.homesvg {
+		width: 80%;
+	}
+	/* ABOUT PAGINA */
+	h1 {
+		font-size: 36pt;
+		margin-bottom: 50px;
+	}
+	.wordcloud {
+		width: 100%;
+	}
+	/* PROJECTS PAGINA */
+	h2 {
+		font-size: 36pt;
+		margin-bottom: 50px;
+	}
+	.stamp {margin-bottom: 170px;}
+	.filters {margin: auto; margin-top: 80px; width: 90%;}
+	.button {margin: auto; margin-bottom: 20px;}
+	.button-group .button {border-radius: 0.5em; margin-right: 10px;}
+	.button-group .button:first-child {border-radius: 0.5em;}
+	.button-group .button:last-child {border-radius: 0.5em;}
+	/* CONTACT PAGINA */
+	.pcontact {display: none;}
+	form {line-height: auto;}
+	.feedback-input {line-height: auto; margin-bottom: 10px;}
+	textarea {height: 150px; line-height: auto;}
+	[type="submit"] {line-height: auto; background:#aa9c66;}
+	ul li {display: inline-block;}
+	.icon {opacity: 1;}
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
 	.swiper-slide  {
-		background-color: yellow;
+		/*background-color: yellow;*/
 	}
 	.swiper-pagination-bullets-dynamic {
 		padding-right: 55px;
 	}
+	.swiper-button-next {display: none;}
+	.swiper-button-prev {display: none;}
+	/* HOME PAGINA */
+	.homesvg {
+		width: 95%;
+	}
+	/* ABOUT PAGINA */
+	h1 {
+		font-size: 36pt;
+		margin-bottom: 50px;
+	}
+	.wordcloud {
+		width: 100%;
+	}
+	/* PROJECTS PAGINA */
+	h2 {
+		font-size: 36pt;
+		margin-bottom: 50px;
+	}
+	.stamp {margin-bottom: 170px;}
+	.filters {margin: auto; margin-top: 80px; width: 100%;}
+	.button { margin: auto; margin-bottom: 20px;}
+	.button-group .button {border-radius: 0.5em; margin-right: 10px;}
+	.button-group .button:first-child {border-radius: 0.5em;}
+	.button-group .button:last-child {border-radius: 0.5em;}
+	/* CONTACT PAGINA */
+	.pcontact {display: none;}
+	form {margin:30px auto; line-height: auto;}
+	.feedback-input {line-height: auto; margin-bottom: 10px;}
+	textarea {line-height: auto;}
+	[type="submit"] {line-height: auto; background:#aa9c66;}
+	.icon {opacity: 1;}
 }
 
 

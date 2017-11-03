@@ -131,11 +131,25 @@ var $grid = $('.grid').isotope({
 	percentPosition: true,
 	masonry: {
 		columnWidth: '.grid-sizer'
+		//columnWidth: 100
 	}
 });
 // layout Isotope after each image loads
 $grid.imagesLoaded().progress( function() {
 	$grid.isotope('layout');
+});
+
+// gigante
+$grid.on( 'click', '.afbeeldingen', function() {
+	// change size of item by toggling gigante class
+	$( ".gigainfo" ).addClass('onzichtbaar')
+	$( this ).toggleClass('gigante');
+	if ($( ".afbeeldingen" ).hasClass('gigante')) {
+		$( ".gigante>.foto>.gigainfo" ).removeClass('onzichtbaar')
+	} else {
+		$( ".gigainfo" ).addClass('onzichtbaar')
+	}
+$grid.isotope('layout');
 });
 
 // bind filter button click
@@ -154,6 +168,9 @@ $filters = $('#filters').on( 'click', 'button', function() {
   // use filterFn if matches value
   $grid.isotope({ filter: filterValue });
 });
+
+
+
 
 
 
