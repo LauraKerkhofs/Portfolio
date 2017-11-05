@@ -308,7 +308,7 @@ ul li {display: inline-block;}
 /*///////////////////////////////////////*/
 @media all and (max-width: 950px) and (min-width: 700px) {
 	.swiper-slide  {
-		background-color: green;
+		/*background-color: green;*/
 	}
 	/* HOME PAGINA */
 	.homesvg {
@@ -333,7 +333,7 @@ ul li {display: inline-block;}
 
 @media all and (max-width: 700px) and (min-width: 400px) {
 	.swiper-slide  {
-		background-color: purple;
+		/*background-color: purple;*/
 		padding: 15px;
 		padding-left: 0px;
 		padding-right: 0px;
@@ -377,7 +377,7 @@ ul li {display: inline-block;}
 
 @media screen and (max-width: 400px) {
 	.swiper-slide  {
-		background-color: yellow;
+		/*background-color: yellow;*/
 		padding: 15px;
 		padding-left: 0px;
 		padding-right: 0px;
