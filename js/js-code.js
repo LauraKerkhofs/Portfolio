@@ -17,22 +17,25 @@ var swiperH = new Swiper('.swiper-container-h', {
 		prevEl: '.swiper-button-prev',
 	},
 });
-/*var swiperV = new Swiper('.swiper-container-v', {
+var swiperV = new Swiper('.swiper-container-v', {
 	direction: 'vertical',
+	slidesPerView: 'auto',
 	spaceBetween: 5,
 	freeMode: true,
 	grabCursor: true,
 	mousewheel: true,
+	scrollbar: {
+		el: '.swiper-scrollbar',
+	},
 	keyboard: {
 		enabled: true,
-	},
-	pagination: {
-		el: '.swiper-pagination-v',
-		dynamicBullets: true,
-		clickable: true,
-	},
+	}
 });
-*/
+
+
+
+
+
 
 
 

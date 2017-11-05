@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-	<meta name="referrer" content="origin"> <!-- Formspree -->
+	<meta name="referrer" content="origin"> <!-- Formspree anders werkt het nie -->
 	
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -35,7 +35,7 @@
 <body>
 	<div class="swiper-container swiper-container-h">
 		<div class="swiper-wrapper">
-			<div class="swiper-slide">
+			<div class="swiper-slide" data-hash="">
 				<div id="particles-js"></div>
 				<object class="homesvg" data="img/homesvg.svg" type="image/svg+xml"></object>
 			</div>
@@ -45,7 +45,7 @@
 					<object class="wordcloud" data="img/wordcloud.svg" type="image/svg+xml"></object>
 				</div>
 			</div>
-			<div class="swiper-slide" data-hash="projects">
+			<div class="swiper-slide swiper-slide-h" data-hash="projects">
 				<div class="swiper-container swiper-container-v">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
@@ -56,12 +56,75 @@
 										<div id="filters" class="button-group js-radio-button-group" data-filter-group="3d">
 											<button class="button" data-filter=".3d">3D</button>
 											<button class="button" data-filter=".graphic">Graphic</button>
-											<button class="button" data-filter=".video">Video animatie</button>
+											<button class="button" data-filter=".video">Video</button>
 											<button class="button" data-filter=".code">Code</button>
 										</div>
 									</div>
 								</div>
 								<div class="grid-sizer"></div>
+								<div class='afbeeldingen 3d video'>
+									<div class='foto'>
+										<img src='img/3DQuote.jpg' alt='image 3D Quote'>
+										<div class="gigainfo onzichtbaar">
+											<p class="gigatext">Little project made in mijn spare time with 3ds Max and edited in Adobe Premiere. Watch the video on <a href="//youtu.be/sI01rrn-MCQ" target="_blank">youtube</a>!</p>
+										</div>
+									</div>
+								</div>
+								<div class='afbeeldingen code video'>
+									<div class='foto'>
+										<img src='img/TelenetTablet.png' alt='Telenet Logo'>
+										<div class="gigainfo onzichtbaar">
+											<p class="gigatext">In de wachtzaal zitten bij Telenet en je bezig houden met het jaarverslag op een tablet (staand). Hier is de <a href="//laurakerkhofs.github.io/JaarverslagTelenet/index.html" target="_blank">website</a> gemaakt in html, css en js. Als je tijd over hebt bekijk dan zeker de <a href="//youtu.be/N8QUNfaLHvM" target="_blank">making of</a>!</p>
+										</div>
+										<!-- NOG OMZETTEN NAAR ENGELS -->
+									</div>
+								</div>
+								<div class='afbeeldingen graphic'>
+									<div class='foto'>
+										<img src='img/IsläkkerLogo.png' alt='Logo Isläkker'>
+										<div class="gigainfo onzichtbaar">
+											<p class="gigatext">Designd a logo in Scandinavian style and added some brand rules for a starting ice company, called Isläkker.</p>
+										</div>
+									</div>
+								</div>
+								<div class='afbeeldingen code'>
+									<div class='foto'>
+										<img src='img/EbikeInterface.png' alt='E-bike Interface'>
+										<div class="gigainfo onzichtbaar">
+											<p class="gigatext">Een e-bike interface maken met als doel knooppunten beter weer te geven en de weg wijzen op een dorstig moment. Deze <a href="//youtu.be/1QIejCYmEd0" target="_blank">video</a> maakt duidelijk hoe de app te gebruiken en als je tijd over hebt bekijk dan zeker de <a href="//youtu.be/6Nhha0bCmWY" target="_blank">making of</a>!</p>
+											<!-- NOG OMZETTEN NAAR ENGELS -->
+										</div>
+									</div>
+								</div>
+								<div class='afbeeldingen 3d'>
+									<div class='foto'>
+										<img src='img/Snoepautomaat-A3DM.png' alt='snoepautomaat Advanced 3D Modeling'>
+										<div class="gigainfo onzichtbaar">
+											<p class="gigatext">A childhood reminder, this candy machine is made in 3ds MAx and for you to watch on <a href="//" target="_blank">sketchfab</a>.</p>
+											<!-- LINK NOG INVOEGEN SNOEPAUTOMAAT SKETCHFAB -->
+										</div>
+									</div>
+								</div>
+								<div class='afbeeldingen 3d video'>
+									<div class='foto'>
+										<img src='img/Bistro-BP6.png' alt='Bistronomy'>
+										<div class="gigainfo onzichtbaar">
+											<p class="gigatext">A lot of links where you can take a look at the 3D Bistronomy of Living Tomorrow. 
+												My <a href="//issuu.com/laurakerkhofs/docs/1617_bp6_kerkhofsl_scriptie-herexam" target="_blank">thesis</a> in Dutch,
+												the virtual reality <a href="//skfb.ly/6rR8y" target="_blank">application</a>
+												 and a <a href="//youtu.be/R0OB0_h7J8Y" target="_blank">video</a> with a little explanation.</p>
+										</div>
+									</div>
+								</div>
+
+
+
+
+
+
+
+
+
 								<div class='afbeeldingen 3d'>
 									<div class='foto'>
 										<img src='img/testbeeld.jpg' alt='testbeeld'>
@@ -113,7 +176,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="swiper-pagination swiper-pagination-v"></div>
+					<div class="swiper-scrollbar"></div>
 				</div>
 			</div>
 			<div class="swiper-slide" data-hash="contact">
@@ -136,12 +199,9 @@
 					</form>
 
 					<ul>
-						<li><a href="//www.facebook.com/laura.kerkhofs.7" target="_blank">
-							<img class="icon" src="img/icon-fb.svg"></a></li>
-						<li><a href="//www.linkedin.com/in/laura-kerkhofs-261529115/" target="_blank">
-							<img class="icon" src="img/icon-li.svg"></a></li>
-						<li><a href="//github.com/LauraKerkhofs" target="_blank">
-							<img class="icon" src="img/icon-gh.svg"></a></li>
+						<li><a href="//www.facebook.com/laura.kerkhofs.7" target="_blank"><img class="icon" src="img/icon-fb.svg"></a></li>
+						<li><a href="//www.linkedin.com/in/laura-kerkhofs-261529115/" target="_blank"><img class="icon" src="img/icon-li.svg"></a></li>
+						<li><a href="//github.com/LauraKerkhofs" target="_blank"><img class="icon" src="img/icon-gh.svg"></a></li>
 					</ul>
 				</div>
 			</div>
@@ -158,3 +218,4 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.min.js"></script>
 <script src="js/js-code.js"></script>
 </html>
+
