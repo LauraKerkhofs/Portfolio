@@ -1,3 +1,5 @@
+.help {font-size: 12px; width: 80%; margin: auto;}
+
 /*Font alles */ @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 /*Font h1*/ @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
@@ -7,6 +9,7 @@
 html, body {
 	position: relative;
 	height: 100%;
+	width: 100%;
 }
 body {
 	background: #eee;
@@ -118,7 +121,7 @@ p {
 }
 
 .wordcloud {
-	width: 70%;
+	width: 100%;
 }
 
 
@@ -135,6 +138,7 @@ p {
 h2 {
 	color: rgb(100, 178, 154);
 	font-size: 36pt;
+	line-height: 20pt;
 	margin-bottom: 70px;
 	font-family: 'Pacifico', cursive;
 }

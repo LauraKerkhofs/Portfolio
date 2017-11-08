@@ -6,43 +6,44 @@
 	@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 	svg {cursor: pointer;}
-	text {opacity: 0.5;}
 	text:hover {opacity:1;}
 </style>
 </defs>
-<clipPath id="cp1">
+<clipPath id="cp2">
 <path d="M 0,0 L 1024,0 L1024,768 L 0,768 z M 0,0 L 1280,0 L 1280,960 L 0,960 z" fill-rule="evenodd">
 </path>
 </clipPath>
-<g clip-path="url(#cp1)">
+<g clip-path="url(#cp2)">
 </g>
-<rect x="0" y="0" width="1280" height="960" opacity="0" fill="rgb(46,46,46)" fill-opacity="1" stroke="none">
+<rect x="0" y="0" width="1280" height="960" opacity="0" fill="rgb(46, 46, 46)" stroke="none">
 </rect>
-<text x="-46.56626892089844" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#817856" stroke="none" transform="translate(512, 384)">user</text>
-<text x="-36.11048126220703" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#f4e4b8" stroke="none" transform="translate(550, 352)">shy</text>
-<text x="-109.53685760498047" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#817856" stroke="none" transform="translate(534, 416)">experience</text>
-<text x="-94.02350616455078" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#f4e4b8" stroke="none" transform="translate(484, 300)">interface</text>
-<text x="-44.784332275390625" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#817856" stroke="none" transform="translate(450, 356)">logo</text>
-<text x="-79.42732238769531" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#64b29a" stroke="none" transform="translate(496, 468)">idealist</text>
-<text x="-134.1171417236328" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#64b29a" stroke="none" transform="translate(512, 520)">perfectionist</text>
-<text x="-111.58085632324219" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#817856" stroke="none" transform="translate(480, 248)">structural</text>
-<text x="-131.39183044433594" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#f4e4b8" stroke="none" transform="translate(552, 190) rotate(9.747042316024455)">straightway</text>
-<text x="-129.29544067382812" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#f4e4b8" stroke="none" transform="translate(546, 572)">self-critical</text>
-<text x="-70.28178405761719" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#64b29a" stroke="none" transform="translate(652, 384)">honest</text>
-<text x="-121.30290222167969" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#f4e4b8" stroke="none" transform="translate(318, 396)">teamplayer</text>
-<text x="-82.0478286743164" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#64b29a" stroke="none" transform="translate(348, 310) rotate(46.13517613936182)">identity</text>
-<text x="-103.11663818359375" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#817856" stroke="none" transform="translate(676, 324)">corporate</text>
-<text x="-43.29064178466797" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#f4e4b8" stroke="none" transform="translate(624, 464)">tree</text>
-<text x="-73.37398529052734" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#64b29a" stroke="none" transform="translate(342, 448)">hugger</text>
-<text x="-60.559730529785156" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#64b29a" stroke="none" transform="translate(656, 282) rotate(16.42501126542702)">killer</text>
-<text x="-60.481117248535156" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#64b29a" stroke="none" transform="translate(676, 470) rotate(-63.76206222730487)">series</text>
-<text x="-66.08900451660156" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#f4e4b8" stroke="none" transform="translate(552, 624)">addict</text>
-<text x="-115.74744415283203" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#64b29a" stroke="none" transform="translate(486, 128)">fascinating</text>
-<text x="-95.01929473876953" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#817856" stroke="none" transform="translate(352, 200)">rainbows</text>
-<text x="-198.16213989257812" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#64b29a" stroke="none" transform="translate(556, 664)">photomanipulation</text>
-<text x="-53.877471923828125" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#817856" stroke="none" transform="translate(288, 344)">video</text>
-<text x="-66.37725067138672" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#817856" stroke="none" transform="translate(312, 512)">design</text>
-<text x="-79.29630279541016" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#817856" stroke="none" transform="translate(372, 612)">graphic</text>
-<text x="-107.41426849365234" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#64b29a" stroke="none" transform="translate(780, 464) rotate(-26.622682046975513)">webdesign</text>
-<text x="-63.992591857910156" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="1" fill="#64b29a" stroke="none" transform="translate(670, 176)">cereal</text>
+<text x="-213.203857421875" y="10.482662399999995" style="font: normal 104.82662400000001px Pacifico" text-anchor="start" dy="41.43344822134388" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(510, 382) rotate(66.52148680288141)">Kerkhofs</text>
+<text x="-131.96836853027344" y="10.482662399999995" style="font: normal 104.82662400000001px Pacifico" text-anchor="start" dy="41.43344822134388" opacity="1" fill="rgb(244, 228, 184)" stroke="none" transform="translate(622, 290)">Laura</text>
+<text x="-198.16213989257812" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(129, 120, 86)" stroke="none" transform="translate(552, 596)">photomanipulation</text>
+<text x="-129.29544067382812" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(129, 120, 86)" stroke="none" transform="translate(674, 380)">self-critical</text>
+<text x="-134.1171417236328" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(129, 120, 86)" stroke="none" transform="translate(348, 472)">perfectionist</text>
+<text x="-131.39183044433594" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(244, 228, 184)" stroke="none" transform="translate(676, 444)">straightway</text>
+<text x="-115.74744415283203" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(100, 178, 154)" stroke="none" transform="translate(342, 408)">fascinating</text>
+<text x="-109.53685760498047" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(244, 228, 184)" stroke="none" transform="translate(342, 356)">experience</text>
+<text x="-111.58085632324219" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(129, 120, 86)" stroke="none" transform="translate(588, 224)">structural</text>
+<text x="-121.30290222167969" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(244, 228, 184)" stroke="none" transform="translate(362, 524)">teamplayer</text>
+<text x="-94.02350616455078" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(100, 178, 154)" stroke="none" transform="translate(294, 270) rotate(-45.94136741541419)">interface</text>
+<text x="-103.11663818359375" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(100, 178, 154)" stroke="none" transform="translate(568, 172)">corporate</text>
+<text x="-107.41426849365234" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(100, 178, 154)" stroke="none" transform="translate(696, 536)">webdesign</text>
+<text x="-82.0478286743164" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(129, 120, 86)" stroke="none" transform="translate(438, 126) rotate(-53.446476751555984)">identity</text>
+<text x="-79.42732238769531" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(129, 120, 86)" stroke="none" transform="translate(540, 144)">idealist</text>
+<text x="-95.01929473876953" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(100, 178, 154)" stroke="none" transform="translate(542, 650) rotate(17.363570725032194)">rainbows</text>
+<text x="-79.29630279541016" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(244, 228, 184)" stroke="none" transform="translate(300, 176)">graphic</text>
+<text x="-70.28178405761719" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(129, 120, 86)" stroke="none" transform="translate(764, 268)">honest</text>
+<text x="-60.559730529785156" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(129, 120, 86)" stroke="none" transform="translate(310, 576)">killer</text>
+<text x="-66.08900451660156" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(100, 178, 154)" stroke="none" transform="translate(588, 92)">addict</text>
+<text x="-60.481117248535156" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(244, 228, 184)" stroke="none" transform="translate(362, 324)">series</text>
+<text x="-73.37398529052734" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(129, 120, 86)" stroke="none" transform="translate(818, 372) rotate(-68.52617989539914)">hugger</text>
+<text x="-66.37725067138672" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(129, 120, 86)" stroke="none" transform="translate(464, 676)">design</text>
+<text x="-63.992591857910156" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(129, 120, 86)" stroke="none" transform="translate(770, 496)">cereal</text>
+<text x="-53.877471923828125" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(129, 120, 86)" stroke="none" transform="translate(376, 116)">video</text>
+<text x="-46.56626892089844" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(129, 120, 86)" stroke="none" transform="translate(600, 472)">user</text>
+<text x="-43.29064178466797" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(244, 228, 184)" stroke="none" transform="translate(718, 182) rotate(35.148586842312874)">tree</text>
+<text x="-44.784332275390625" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(100, 178, 154)" stroke="none" transform="translate(352, 648) rotate(39.12348831041543)">logo</text>
+<text x="-36.11048126220703" y="5.241331199999998" style="font: normal 52.413312000000005px Pacifico" text-anchor="start" dy="20.71672411067194" opacity="0.7" fill="rgb(100, 178, 154)" stroke="none" transform="translate(214, 364) rotate(55.65162692466821)">shy</text>
 </svg>

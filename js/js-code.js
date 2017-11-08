@@ -3,19 +3,17 @@
 /*///////////////////////////////////////*/
 var swiperH = new Swiper('.swiper-container-h', {
 	spaceBetween: 20,
-	//freeMode: true,
 	hashNavigation: {
 		watchState: true,
 	},
 	grabCursor: true,
-	//mousewheel: true,
 	keyboard: {
 		enabled: true,
 	},
 	navigation: {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev',
-	},
+	}
 });
 var swiperV = new Swiper('.swiper-container-v', {
 	direction: 'vertical',
