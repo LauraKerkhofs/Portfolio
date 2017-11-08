@@ -57,7 +57,7 @@ particlesJS("particles-js", {
 			"stroke": {
 				"width": 0,
 				"color": "#000000"
-			},
+			}
 		},
 		"opacity": {
 			"value": 0.3,
@@ -115,8 +115,13 @@ particlesJS("particles-js", {
 			},
 			"push": {"particles_nb": 10},
 		}
-	},
+	}
 });
+
+
+
+
+
 
 
 
@@ -132,9 +137,9 @@ var $grid = $('.grid').isotope({
 	percentPosition: true,
 	masonry: {
 		columnWidth: '.grid-sizer'
-		//columnWidth: 100
 	}
 });
+
 // layout Isotope after each image loads
 $grid.imagesLoaded().progress( function() {
 	$grid.isotope('layout');
@@ -142,7 +147,6 @@ $grid.imagesLoaded().progress( function() {
 
 // gigante
 $grid.on( 'click', '.afbeeldingen', function() {
-	// change size of item by toggling gigante class
 	$( ".gigainfo" ).addClass('onzichtbaar')
 	$( this ).toggleClass('gigante');
 	if ($( ".afbeeldingen" ).hasClass('gigante')) {
@@ -155,25 +159,17 @@ $grid.isotope('layout');
 
 // bind filter button click
 $filters = $('#filters').on( 'click', 'button', function() {
-  var $this = $( this );
-  var filterValue;
-  if ( $this.is('.is-checked') ) {
-    // uncheck
-    filterValue = '*';
-  } else {
-    filterValue = $this.attr('data-filter');
-    $filters.find('.is-checked').removeClass('is-checked');
-  }
-  $this.toggleClass('is-checked');
+	var $this = $( this );
+	var filterValue;
+	if ( $this.is('.is-checked') ) {
+		// uncheck
+		filterValue = '*';
+	} else {
+		filterValue = $this.attr('data-filter');
+		$filters.find('.is-checked').removeClass('is-checked');
+	}
+	$this.toggleClass('is-checked');
 
-  // use filterFn if matches value
-  $grid.isotope({ filter: filterValue });
+	$grid.isotope({ filter: filterValue });
 });
-
-
-
-
-
-
-
 

@@ -6,11 +6,7 @@
 /*///////////////////////////////////////*/
 /*////////////// ALGEMEEN ///////////////*/
 /*///////////////////////////////////////*/
-html, body {
-	position: relative;
-	height: 100%;
-	width: 100%;
-}
+html, body {position: relative; height: 100%; width: 100%;}
 body {
 	background: #eee;
 	font-family: 'Roboto', sans-serif;
@@ -22,15 +18,9 @@ body {
 	background-color: white;
 }
 
-.swiper-container {
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,0.9);
-}
+.swiper-container {width: 100%; height: 100%; background-color: rgba(0,0,0,0.9); }
 
-.swiper-wrapper {
-	height: 100%;
-}
+.swiper-wrapper {height: 100%;}
 
 .swiper-slide {
 	text-align: center;
@@ -58,8 +48,7 @@ body {
 
 .swiper-slide-h {height: 100%;}
 .swiper-container-v > .swiper-slide {height: auto;}
-.swiper-container-v {
-	background-color: rgba(255,255,255,0.3);}
+.swiper-container-v {	background-color: rgba(255,255,255,0.3);}
 
 /*/// STYLING SCROLLBAR ///*/
 .swiper-scrollbar {background-color: white; margin-right: 5%; opacity: 0.7;}
@@ -82,14 +71,8 @@ body {
 /*///////////////////////////////////////*/
 /*///////////// HOME PAGINA /////////////*/
 /*///////////////////////////////////////*/
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.homesvg {
-	width: 45%;
-}
+#particles-js {position: absolute; width: 100%; height: 100%;}
+.homesvg {width: 45%; }
 
 
 
@@ -103,10 +86,7 @@ body {
 /*///////////////////////////////////////*/
 /*/////////// ABOUT ME PAGINA ///////////*/
 /*///////////////////////////////////////*/
-.kader {
-	width: 70%;
-	/*background-color: white;*/
-}
+.kader {width: 70%; }
 
 h1 {
 	color: rgb(100, 178, 154);
@@ -116,13 +96,8 @@ h1 {
 	font-family: 'Pacifico', cursive;
 }
 
-p {
+.wordcloud {width: 100%;}
 
-}
-
-.wordcloud {
-	width: 100%;
-}
 
 
 
@@ -143,10 +118,7 @@ h2 {
 	font-family: 'Pacifico', cursive;
 }
 
-.grid {
-	width: 80%;
-	/*background-color: red;*/
-}
+.grid {width: 80%;}
 
 .stamp {
 	position: absolute;
@@ -158,7 +130,6 @@ h2 {
 
 /* ---- button ---- */
 .filters {margin-top: 100px;}
-
 .button {
 	display: inline-block;
 	padding: 0.5em 1.0em;
@@ -176,19 +147,16 @@ h2 {
 .button:hover {color: #242424; background:#aa9c66;}
 .button:active, .button.is-checked {color: #817856; background-color: white;}
 
-/* ---- button-group ---- */
 .button-group:after {content: ''; display: block; clear: both; }
 .button-group .button {float: left; border-radius: 0px; margin-left: 0; margin-right: 2px; }
 .button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
 .button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
 
-/* ui group */
 .ui-group {display: inline-block;}
 .ui-group .button-group {display: inline-block;}
 
 .grid-sizer, .afbeeldingen {
 	width: 31%;
-	/*margin: auto;*/
 	margin: 0.5%;
 	padding: 0.5%;
 	padding-bottom: 1.5%;
@@ -197,9 +165,8 @@ h2 {
 .afbeeldingen:hover {cursor: pointer;}
 /* clear fix */.afbeeldingen:after {content: '';display: block;clear: both;}
 
-.gigante {
-  width: 64%;
-}
+/* tekst invoegen */
+.gigante {width: 64%;}
 .onzichtbaar {display: none;}
 .gigainfo {
 	display: visible;
@@ -207,23 +174,13 @@ h2 {
 	background-color: rgba(235, 235, 235, 1);
 	border-radius: 0 0 5px 5px;
 }
-.gigatext {
-	padding: 7px;
-	padding-top: 20px;
-	color: #242424;
-}
-.gigatext a {
-	text-decoration: none;
-	color: rgb(100, 178, 154);
-}
+.gigatext {padding: 7px; padding-top: 20px; color: #242424;}
+.gigatext a {text-decoration: none; color: rgb(100, 178, 154);}
+.gigatext a:hover {font-weight: 700;
 
+}
 .foto {width: 100%;}
-
-.foto img {
-	width: 100%;
-	display: block;
-	margin: auto;
-}
+.foto img {width: 100%; display: block; margin: auto;}
 
 
 
@@ -238,11 +195,7 @@ h2 {
 /*////////// CONTACT ME PAGINA //////////*/
 /*///////////////////////////////////////*/
 .pcontact {font-size: 15px; line-height: auto;}
-span {
-	font-weight: 700;
-	font-size: 18px;
-	color: #d2d8b1;
-}
+span {font-weight: 700; font-size: 18px; color: #d2d8b1;}
 
 form {
 	max-width:500px;
@@ -270,11 +223,7 @@ form {
 }
 .feedback-input:focus {border:2px solid #aa9c66;}
 
-textarea {
-	height: 120px;
-	line-height: 150%;
-	resize:vertical;
-}
+textarea {height: 120px; line-height: 150%; resize:vertical;}
 
 [type="submit"] {
 	font-family: 'Roboto', sans-serif;
@@ -311,26 +260,14 @@ ul li {display: inline-block;}
 /*//////////// MEDIA QUERYS /////////////*/
 /*///////////////////////////////////////*/
 @media all and (max-width: 950px) and (min-width: 700px) {
-	.swiper-slide  {
-		/*background-color: green;*/
-	}
+	.swiper-slide  {/*background-color: green;*/}
 	/* HOME PAGINA */
-	.homesvg {
-		width: 70%;
-	}
+	.homesvg {width: 70%;}
 	/* ABOUT PAGINA */
-	h1 {
-		font-size: 36pt;
-		margin-bottom: 70px;
-	}
-	.wordcloud {
-		width: 100%;
-	}
+	h1 {font-size: 36pt; margin-bottom: 70px;}
+	.wordcloud {width: 100%;}
 	/* PROJECTS PAGINA */
-	h2 {
-		font-size: 36pt;
-		margin-bottom: 70px;
-	}
+	h2 {font-size: 36pt; margin-bottom: 70px;}
 	/* CONTACT PAGINA = niks*/
 }
 
@@ -344,22 +281,12 @@ ul li {display: inline-block;}
 	}
 	.swiper-scrollbar {display: none;}
 	/* HOME PAGINA */
-	.homesvg {
-		width: 80%;
-	}
+	.homesvg {width: 80%; }
 	/* ABOUT PAGINA */
-	h1 {
-		font-size: 36pt;
-		margin-bottom: 50px;
-	}
-	.wordcloud {
-		width: 100%;
-	}
+	h1 {font-size: 36pt; margin-bottom: 50px;}
+	.wordcloud {width: 100%;}
 	/* PROJECTS PAGINA */
-	h2 {
-		font-size: 36pt;
-		margin-bottom: 50px;
-	}
+	h2 {font-size: 36pt; margin-bottom: 50px;}
 	.stamp {margin-bottom: 170px;}
 	.filters {margin: auto; margin-top: 80px; width: 90%;}
 	.button {margin: auto; margin-bottom: 20px;}
@@ -390,22 +317,12 @@ ul li {display: inline-block;}
 	.swiper-button-next {display: none;}
 	.swiper-button-prev {display: none;}
 	/* HOME PAGINA */
-	.homesvg {
-		width: 95%;
-	}
+	.homesvg {width: 95%;}
 	/* ABOUT PAGINA */
-	h1 {
-		font-size: 36pt;
-		margin-bottom: 50px;
-	}
-	.wordcloud {
-		width: 100%;
-	}
+	h1 {font-size: 36pt; margin-bottom: 50px;}
+	.wordcloud {width: 100%;}
 	/* PROJECTS PAGINA */
-	h2 {
-		font-size: 36pt;
-		margin-bottom: 50px;
-	}
+	h2 {font-size: 36pt; margin-bottom: 50px;}
 	.stamp {margin-bottom: 170px;}
 	.filters {margin: auto; margin-top: 80px; width: 100%;}
 	.button { margin: auto; margin-bottom: 20px;}
@@ -420,9 +337,6 @@ ul li {display: inline-block;}
 	.feedback-input {line-height: auto; margin-bottom: 10px;}
 	textarea {line-height: auto;}
 	[type="submit"] {line-height: auto; background:#aa9c66;}
-	.icon {opacity: 1;}
+	.icon {margin: 15px; margin-top: 10px; opacity: 1;}
 }
-
-
-
 
