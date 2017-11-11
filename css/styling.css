@@ -1,8 +1,4 @@
 .help {font-size: 12px; width: 80%; margin: auto;}
-
-/*Font alles */ @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
-/*Font h1*/ @import url('https://fonts.googleapis.com/css?family=Pacifico');
-
 /*///////////////////////////////////////*/
 /*////////////// ALGEMEEN ///////////////*/
 /*///////////////////////////////////////*/
@@ -324,7 +320,7 @@ ul li {display: inline-block;}
 	/* PROJECTS PAGINA */
 	h2 {font-size: 36pt; margin-bottom: 50px;}
 	.stamp {margin-bottom: 170px;}
-	.filters {margin: auto; margin-top: 80px; width: 100%;}
+	.filters {margin: auto; margin-top: 80px; padding-left: 7%; width: 66.2%;}
 	.button { margin: auto; margin-bottom: 20px;}
 	.button-group .button {border-radius: 0.5em; margin-right: 10px;}
 	.button-group .button:first-child {border-radius: 0.5em;}
@@ -337,6 +333,6 @@ ul li {display: inline-block;}
 	.feedback-input {line-height: auto; margin-bottom: 10px;}
 	textarea {line-height: auto;}
 	[type="submit"] {line-height: auto; background:#aa9c66;}
-	.icon {margin: 15px; margin-top: 10px; opacity: 1;}
+	.icon {width: 40px; margin: 10px; margin-top: 10px; opacity: 1;}
 }
 
