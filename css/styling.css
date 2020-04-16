@@ -39,12 +39,14 @@ body {
 }
 
 .logo img {
-	height: 100px;
+	height: 70px;
+	margin-left: 10px;
+	margin-top: 10px;
 	opacity: 0.8;
 }
 .logo img:hover {opacity: 1;}
-.logoBlackOlive {position: absolute; margin-left: -2.6%;}
-.logoWhiteSmoke {}
+.logoBlackOlive {}
+.logoWhiteSmoke {position: absolute; margin-left: -2.6%;}
 
 .aboutme {margin: 20px;}
 .aboutme p {margin: 10px;}
@@ -75,11 +77,21 @@ body {
 .aboutIcon {
 	display: inline-block;
 	width: 15px;
-	margin: 5px;
+	margin-right: 10px;
 	opacity: 0.8;
 }
-.icon:hover {opacity: 1;}
 
+.socials {
+	width: 95%;
+	margin: auto;
+}
+.socials .icon {
+	display: inline-block;
+	width: 35px;
+	margin: 10px;
+	opacity: 0.8;
+}
+.socials .icon:hover {opacity: 1;}
 
 
 /*///////////////////////////////////////*/
@@ -232,8 +244,8 @@ textarea {height: 120px; line-height: 100%; resize:vertical;}
 [type="submit"]:hover {background: #b5e2fa; color: #3B3C36;}
 
 ul li {display: inline-block;}
-.icon {width: 30px; margin: 10px; opacity: 0.8;}
-.icon:hover {opacity: 1;}
+ul li .icon {width: 40px; margin: 10px; opacity: 0.8;}
+ul li .icon:hover {opacity: 1;}
 
 
 

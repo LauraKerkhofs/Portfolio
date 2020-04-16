@@ -52,14 +52,14 @@ $filters = $('#filters').on( 'click', 'button', function() {
 var main = function () {
 	"use strict";
 	
-	$(".logoBlackOlive").on("click", function() {
+	$(".logoWhiteSmoke").on("click", function() {
 		$(".sidebarInfo").removeClass("onzichtbaar");
-		$(".logoBlackOlive").addClass("onzichtbaar");
+		$(".logoWhiteSmoke").addClass("onzichtbaar");
 		$(".grid").addClass("gridAndSidebar")
 	});
-	$(".logoWhiteSmoke").on("click", function() {
+	$(".logoBlackOlive").on("click", function() {
 		$(".sidebarInfo").addClass("onzichtbaar");
-		$(".logoBlackOlive").removeClass("onzichtbaar");
+		$(".logoWhiteSmoke").removeClass("onzichtbaar");
 		$(".grid").removeClass("gridAndSidebar")
 	});
 };
