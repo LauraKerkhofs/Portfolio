@@ -43,8 +43,8 @@ body {
 	opacity: 0.8;
 }
 .logo img:hover {opacity: 1;}
-.logoBlackOlive {}
-.logoWhiteSmoke {position: absolute; margin-left: -2.6%;}
+.logoBlackOlive {position: absolute; margin-left: -2.6%;}
+.logoWhiteSmoke {}
 
 .aboutme {margin: 20px;}
 .aboutme p {margin: 10px;}
@@ -55,16 +55,30 @@ body {
 	 text-decoration: underline; color: #b5e2fa;
 }
 
-.imageME {
-	width: 100%;
-	background-color: blue;
+.imageME {width: 100%;}
+
+#quote {
+	color: #f9f7f3;
+	font-size: 14pt;
+	line-height: 20pt;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin: 10px;
+}
+
+#quote #change {
+	color: #f9f7f3;
+	font-size: 14pt;
+	line-height: 20pt;
 }
 
 .aboutIcon {
 	display: inline-block;
 	width: 15px;
 	margin: 5px;
+	opacity: 0.8;
 }
+.icon:hover {opacity: 1;}
 
 
 
@@ -82,7 +96,7 @@ h1 {
 
 h2 {
 	color: #eddea4;
-	font-size: 24pt;
+	font-size: 23pt;
 	line-height: 30pt;
 	margin-top: 15px;
 	margin-bottom: 10px;
@@ -167,7 +181,7 @@ h3 {
 
 
 /*///////////////////////////////////////*/
-/*//////////// CONTACT PAGINA ///////////*/
+/*////////// CONTACT ME PAGINA //////////*/
 /*///////////////////////////////////////*/
 .kadercontact {width: 95%; margin: auto; color: #3B3C36;}
 .pcontact {line-height: 30px; font-size: 20px; width: 550px; text-align: center; margin: auto; padding: 20px;}
@@ -218,7 +232,7 @@ textarea {height: 120px; line-height: 100%; resize:vertical;}
 [type="submit"]:hover {background: #b5e2fa; color: #3B3C36;}
 
 ul li {display: inline-block;}
-.icon {width: 40px; margin: 15px; opacity: 0.8;}
+.icon {width: 30px; margin: 10px; opacity: 0.8;}
 .icon:hover {opacity: 1;}
 
 
@@ -269,4 +283,5 @@ ul li {display: inline-block;}
 	[type="submit"] {line-height: auto; background:#16a1a8;}
 	.icon {width: 40px; margin: 10px; margin-top: 10px; opacity: 1;}
 }
+
 
