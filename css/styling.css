@@ -49,23 +49,24 @@ body {
 .aboutme {margin: 20px;}
 .aboutme p {margin: 10px;}
 .aboutme p a {
-	 text-decoration: none;
-	 color: #16a1a8;
-	 font-weight: 700;
+	 text-decoration: none; color: #16a1a8; font-weight: 700;
 }
 .aboutme p a:hover {
-	 text-decoration: underline;
-	 color: #b5e2fa;
+	 text-decoration: underline; color: #b5e2fa;
 }
 
 .imageME {
 	width: 100%;
-	Background-color: blue;
+	background-color: blue;
 }
 
-.socials {
-	margin: 10px;
+.aboutIcon {
+	display: inline-block;
+	width: 15px;
+	margin: 5px;
+	opacity: 0.8;
 }
+.aboutIcon:hover {opacity: 1;}
 
 
 
@@ -168,7 +169,7 @@ h3 {
 
 
 /*///////////////////////////////////////*/
-/*////////////// CONTACT  ///////////////*/
+/*//////////// CONTACT PAGINA ///////////*/
 /*///////////////////////////////////////*/
 .kadercontact {width: 95%; margin: auto; color: #3B3C36;}
 .pcontact {line-height: 30px; font-size: 20px; width: 550px; text-align: center; margin: auto; padding: 20px;}
@@ -219,7 +220,7 @@ textarea {height: 120px; line-height: 100%; resize:vertical;}
 [type="submit"]:hover {background: #b5e2fa; color: #3B3C36;}
 
 ul li {display: inline-block;}
-.icon {width: 50px; margin: 15px; opacity: 0.8;}
+.icon {width: 30px; margin: 10px; opacity: 0.8;}
 .icon:hover {opacity: 1;}
 
 
@@ -270,5 +271,4 @@ ul li {display: inline-block;}
 	[type="submit"] {line-height: auto; background:#16a1a8;}
 	.icon {width: 40px; margin: 10px; margin-top: 10px; opacity: 1;}
 }
-
 
