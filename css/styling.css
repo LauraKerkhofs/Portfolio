@@ -43,8 +43,8 @@ body {
 	opacity: 0.8;
 }
 .logo img:hover {opacity: 1;}
-.logoBlackOlive {position: absolute; margin-left: -2.6%;}
-.logoWhiteSmoke {}
+.logoBlackOlive {}
+.logoWhiteSmoke {position: absolute; margin-left: -2.6%;}
 
 .aboutme {margin: 20px;}
 .aboutme p {margin: 10px;}
