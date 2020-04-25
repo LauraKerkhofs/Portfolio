@@ -89,7 +89,7 @@ body {
 .socials .icon {
 	display: inline-block;
 	width: 28px;
-	margin: 10px;
+	margin: 7px;
 	opacity: 0.8;
 }
 .socials .icon:hover {opacity: 1;}
@@ -168,15 +168,30 @@ h3 {
 
 .afbeeldingen {
 	margin: auto;
-	width: 31.85%;
+	width: 100%;
 	padding: 0.75%;
-}
+} /* 31.85% */
+.afbeeldingenBistro {max-width: 38%;}
+.afbeeldingenTelenet {max-width: 28%;}
+.afbeeldingenIslakker {max-width: 20%;}
+.afbeeldingenEbike {max-width: 40%;}
+.afbeeldingenSnoep {max-width: 22%;}
+.afbeeldingenQuote {max-width: 26%;}
+.afbeeldingenTattrest {max-width: 40%;}
+.afbeeldingenMapping {max-width: 50%;}
+.afbeeldingenPortfolio {max-width: 18%;}
+.afbeeldingenOptiek {max-width: 28%;}
+.afbeeldingenGrietje {max-width: 30%;}
+.afbeeldingenWereld {max-width: 30%;}
+.afbeeldingenChess {max-width: 30%;}
+.afbeeldingenHotjar {max-width: 30%;}
+
 .afbeeldingen:hover {cursor: pointer; opacity: 0.8;}
 /* clear fix */ .afbeeldingen:after {content: '';display: block;clear: both;}
 
 /* tekst invoegen */
-.gigante {width: 48%;}
-.gigante:hover {width: 48%; opacity: 1;}
+.gigante {margin: auto;}
+.gigante:hover {opacity: 1;}
 .onzichtbaar {display: none;}
 .gigainfo {
 	display: visible;

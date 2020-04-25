@@ -7,7 +7,7 @@ var $grid = $('.grid').isotope({
 	stagger: 50,
 	percentPosition: true,
 	masonry: {
-		columnWidth: '.afbeeldingen'
+		columnWidth: 18 // 18 is the 18% of the smallest fit of the max-width
 	}
 });
 
@@ -66,10 +66,10 @@ $(document).ready(main);
 
 
 
-var nameArray = ["Webdesigner", "Camera Operator", "Video Editor", "Photo Manipulator", "3D Enthusiast", "Audio Cleaner", "Learner",
+var nameArray = ["Webdesigner", "Camera Operator", "Video Editor", "Photo Manipulator", "3D Enthusiast", "Audio Cleaner", "Lights Assistent", "Learner",
 					 "Perfectionist",
 					  "Singalong Artist", "Open Book", "Gardener", "Food Lover", "Beer Fan", "Wine Groupie", "Everyday Tetris Player", "Bonvivant",
-					  "King of the World", "Sunflower", "Rainbow", ""
+					  "King of the World", "Sunflower", "Rainbow"
 					 ]; //One of those will be randomly chosen
 
 var lastIndex = 0; //Used to remember the last word picked
