@@ -39,6 +39,7 @@ body {
 }
 
 .logo img {
+	cursor: pointer;
 	height: 70px;
 	margin-left: 10px;
 	margin-top: 10px;
@@ -87,7 +88,7 @@ body {
 }
 .socials .icon {
 	display: inline-block;
-	width: 35px;
+	width: 28px;
 	margin: 10px;
 	opacity: 0.8;
 }
@@ -187,8 +188,8 @@ h3 {
 .gigatext {margin:auto; padding:auto; padding: 15px 30px; color: #3B3C36;}
 .gigatext a {text-decoration: none; color: #6d247c; font-weight: 700;}
 .gigatext a:hover {text-decoration: underline;}
-.foto {width: 100%;}
-.foto img {width: 100%; display: block; margin: auto;}
+.foto {width: 100%; background-color: transparent;}
+.foto img {width: 100%; display: block; margin: auto; background-color: transparent;}
 
 
 
@@ -244,7 +245,7 @@ textarea {height: 120px; line-height: 100%; resize:vertical;}
 [type="submit"]:hover {background: #b5e2fa; color: #3B3C36;}
 
 ul li {display: inline-block;}
-ul li .icon {width: 40px; margin: 10px; opacity: 0.8;}
+ul li .icon {width: 35px; margin: 10px; opacity: 0.8;}
 ul li .icon:hover {opacity: 1;}
 
 

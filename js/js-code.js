@@ -51,7 +51,6 @@ $filters = $('#filters').on( 'click', 'button', function() {
 /*///////////////////////////////////////*/
 var main = function () {
 	"use strict";
-	
 	$(".logoWhiteSmoke").on("click", function() {
 		$(".sidebarInfo").removeClass("onzichtbaar");
 		$(".logoWhiteSmoke").addClass("onzichtbaar");
@@ -69,7 +68,7 @@ $(document).ready(main);
 
 var nameArray = ["Webdesigner", "Camera Operator", "Video Editor", "Photo Manipulator", "3D Enthusiast", "Audio Cleaner", "Learner",
 					 "Perfectionist",
-					  "Singalong Artist", "Open Book", "Gardener", "Food Lover",
+					  "Singalong Artist", "Open Book", "Gardener", "Food Lover", "Beer Fan", "Wine Groupie", "Everyday Tetris Player", "Bonvivant",
 					  "King of the World", "Sunflower", "Rainbow", ""
 					 ]; //One of those will be randomly chosen
 
